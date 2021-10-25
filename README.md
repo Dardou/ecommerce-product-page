@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Dardou/ecommerce-product-page/)
-- Live Site URL: [Add live site URL here](https://dardou.github.io/ecommerce-product-page/)
+- Solution URL: [link to github](https://github.com/Dardou/ecommerce-product-page/)
+- Live Site URL: [link to github pages](https://dardou.github.io/ecommerce-product-page/)
 
 ## My process
 
