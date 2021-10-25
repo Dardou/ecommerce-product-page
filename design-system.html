@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Design System Ecommerce</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-white">
+    <div class="container flow">    
+        <h1 class="uppercase text-blue-dark fs-800">Design System</h1>
+
+        <!-- Colors -->
+        <section class="flow" id="colors">
+            <h2 class="uppercase fw-400 text-blue-dark fs-700">Colors</h2>
+            <div class="flex f-col">
+                <div class="" style="flex-grow: 1;">
+                        <div class="bg-orange text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid black">Orange</div>
+                </div>
+                <div class="" style="flex-grow: 1;">
+                        <div class="bg-blue-dark text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid black">Blue Dark</div>
+                </div>
+                <div class="" style="flex-grow: 1;">
+                        <div class="bg-orange-pale text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid black">Orange Pale</div>
+                </div>
+                <div class="" style="flex-grow: 1;">
+                        <div class="bg-blue-gray text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid black">Blue Gray</div>
+                </div>
+                <div class="" style="flex-grow: 1;">
+                        <div class="bg-blue-light-gray text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid black">blue-light-gray</div>
+                </div>
+                <div class="" style="flex-grow: 1;">
+                        <div class="bg-blue-dark-gray text-white ff-serif fs-500" style="padding: 3rem 1rem 1rem; border: 1px solid black">blue-dark-gray</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Typography -->
+        <section class="flow" id="Typography">
+            <h2 class="uppercase text-blue-dark fw-400 fs-700">Typography</h2>
+            <div class="flex even-columns">
+
+                <!-- Headings -->
+                <div class="flow">
+                    <div class="">
+                        <p class="text-blue-dark">Heading 1 - Kumbh Sans - fs-800</p>  
+                        <p class="fs-800 ff-serif text-blue-dark fw-700">Fall Limited Edition <span class="block">Sneakers</span></p>
+                    </div>
+                    <div class="">
+                        <p class="text-blue-dark">Heading 2 - Kumbh Sans - fs-400</p>  
+                        <p class="fs-400 ff-serif text-orange fw-700 uppercase">Sneaker Company</p>
+                    </div>
+                    <div class="">
+                        <p class="text-blue-dark">Heading 3 - Kumbh Sans - fs-400 fw-400</p>  
+                        <p class="fs-300 ff-serif text-blue-gray fw-400">Collections Men Women About Contact</p>
+                    </div>
+                </div>
+
+                <!-- Sub Headings -->
+                <div class="flow">
+                    <div> 
+                        <p class="text-accent">Subheading 1 - Kumbh Sans - fs-500</p>
+                        <p class="fs-500 ff-serif uppercase fw-700 text-blue-dark">$125.00</p>
+                    </div>
+                    <div> 
+                        <p class="text-accent">Subheading 2 - Kumbh Sans - fs-400</p>
+                        <p class="fs-400 ff-serif uppercase fw-700 text-blue-gray">$250.00</p>
+                    </div>
+                    <div> 
+                        <p class="text-accent">Subheading 3 - Kumbh Sans - fs-400</p>
+                        <p class="fs-400 ff-serif uppercase fw-700 text-orange">50%</p>
+                    </div>
+                    <div> 
+                        <p class="text-accent">Paragraphs - Kumbh Sans - fs-300</p>
+                        <p class="fs-300 ff-serif uppercase fw-400 text-blue-dark-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae iste cum blanditiis porro odio nisi eius, maxime eos nam.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Components  -->
+        <section class="flow">
+            <h2 class="uppercase text-blue-dark fw-400 fs-700">Components</h2>
+            <div class="flex">
+                <!-- display shoes -->
+                <div class="flex f-col">
+                    <div class="main-shoe">
+                        <img src="./FEM stuff/images/image-product-1.jpg" alt="shoe">
+                    </div>
+
+                    <!-- Shoe list -->
+                    <div class="shoe-list flex">
+                        <img src="./FEM stuff/images/image-product-1-thumbnail.jpg" alt="shoe-1">
+                        <img src="./FEM stuff/images/image-product-2-thumbnail.jpg" alt="shoe-2">
+                        <img src="./FEM stuff/images/image-product-3-thumbnail.jpg" alt="shoe-3">
+                        <img src="./FEM stuff/images/image-product-3-thumbnail.jpg" alt="shoe-4">
+                    </div>
+                </div>
+
+                <!-- sales -->
+                <div>
+                <p class="fs-400 ff-serif uppercase fw-700 text-orange soft-edge bg-orange-pale" style="--extra-px:.5em">50%</p>
+                </div>
+
+                <!-- deleted price -->
+                <div>
+                    <p class="fs-400 ff-serif uppercase fw-700 text-blue-gray text-crossed">$250.00</p>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+        <!-- Interactive Elements -->
+        <section class="flow" id="interactive-elements">
+            <h2 class="uppercase text-blue-dark fw-400 fs-700">Interactive Elements</h2>
+            <div class="flex" style="justify-content: space-between; align-items: center;">
+                <!-- Navigation -->
+                <div class="">
+                    <nav>
+                        <ul role="list" class="flex primary-nav underline-indicators" style="--gap: 3rem">
+                            <li class="fs-300 ff-serif text-blue-gray fw-400">Collections</li>
+                            <li class="fs-300 ff-serif text-blue-gray fw-400">Men</li>
+                            <li class="fs-300 ff-serif text-blue-gray fw-400">Women</li>
+                            <li class="fs-300 ff-serif text-blue-gray fw-400">About</li>
+                            <li class="fs-300 ff-serif text-blue-gray fw-400">Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Shopping Icon -->
+                <div class="shopping-icon">
+                    <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"  fill-rule="nonzero"/></svg>
+                </div>
+
+                <!-- Image -->
+                <div class="image-round">
+                    <img src="./FEM stuff/images/image-avatar.png" alt="avatar">
+                </div>
+            </div>
+            <div class="flex" style="justify-content: space-between;">
+                <div class="flex bg-blue-light-gray soft-edge" style="align-items: center; --extra-px:1em; --extra-py:.2em">
+                    <button class="text-orange btn-content-only fw-700 ff-serif">-</button>
+                    <p class="fs-200">0</p>
+                    <button class="text-orange btn-content-only fw-700">+</button>
+                </div>
+
+                <button class="btn-content-only flex bg-orange soft-edge add-cta" style="align-items: center; --extra-px:2em; --extra-py:.8em;">
+                    <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"  fill-rule="nonzero"/></svg>
+                    <p class="text-white fw-700 fs-400">Add to cart</p>
+                </button>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
